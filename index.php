@@ -2,6 +2,6 @@
 	<head>
 	</head>
 	<body>
-		It Worked!
+		<h1>It Worked!</h1>
 	</body>
 </html>
