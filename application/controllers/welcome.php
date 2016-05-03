@@ -15,13 +15,12 @@ class Welcome extends CI_Controller {
 
     public function cari()
     {
-
-        $this->load->view('home');
+        $this->load->view('cari');
     }
 
     public function pembicara($name=NULL)
     {
-        $this->load->view('home');
+        $this->load->view('pembicara');
     }
 
     public function acara($name=NULL)

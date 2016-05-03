@@ -18,52 +18,96 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
-.navbar-brand img{
-    height: 50px;
-}
-nav{
-    height: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+
+/* NAVBAR */
+
+/* all size */
 nav.navbar-default{
-    background: transparent;
     border:none;
     -webkit-transition: background-color 0.5s; /* Safari 3.1 to 6.0 */
     transition: background-color 0.5s;
 }
-.navbar-default .navbar-nav>li>a{
-    color: #fff;
+
+/* mobile dan tablet size */
+@media screen and (max-width:767px) {
+    .navbar-brand img{
+        height: 35px;
+    }
+    .navbar-brand{
+        padding: 10px;
+    }
+    nav.navbar-default{
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle{
+        border : none;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+        background: none;
+    }
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+        background: #06b9f1;
+    }
+    .navbar-nav{
+        margin-top: 0px;
+    }
 }
-.navbar-default .navbar-nav>li>a:hover{
-    color: #fff;
-    background-color: #222;
-    opacity: 0.4;
-    border-radius:8px;
-}
-nav .container-fluid{
-    height: 100%;
-}
-nav .container-fluid{
-    position: relative;
-}
-nav .container-fluid .navbar-header{
-    position: absolute;
-    top: 50%;
-    height: 50px;
-    margin-top: -35px;
-}
-nav .container-fluid .navbar-collapse{
-    position: absolute;
-    top: 50%;
-    height: 50px;
-    margin-top: -25px;
-    right: -5px;
+
+/* desktop size */
+@media screen and (min-width:768px) {
+    nav.navbar-default{
+        background: transparent;
+    }
+    .navbar-brand img{
+        height: 50px;
+    }
+    nav{
+        height: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>li>a:hover{
+        color: #fff;
+        background-color: #222;
+        opacity: 0.4;
+        border-radius:8px;
+    }
+    nav .container-fluid{
+        height: 100%;
+    }
+    nav .container-fluid{
+        position: relative;
+    }
+    nav .container-fluid .navbar-header{
+        position: absolute;
+        top: 50%;
+        height: 50px;
+        margin-top: -35px;
+    }
+    nav .container-fluid .navbar-collapse{
+        position: absolute;
+        top: 50%;
+        height: 50px;
+        margin-top: -25px;
+        right: -5px;
+    }
+
 }
 
 /* ALL */
 .section{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+.usulpembicara{
+    margin-top: 60px;
 }
 
 /* HOME */
@@ -81,6 +125,7 @@ nav .container-fluid .navbar-collapse{
     ),
     url('../img/main-image.jpg');
     background-size: cover;
+    background-position: center;
 }
 .main h2{
     margin-top: 20px;
@@ -88,19 +133,27 @@ nav .container-fluid .navbar-collapse{
     color: #fff;
 }
 .main img{
+    max-width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
 }
-.main button{
-    height: 40px;
+.main a{
+    line-height: 28px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.tema{
-    width: 90%;
+@media screen and (max-width:991px) {
+    .main h2{
+        font-size: 28px;
+    }
+    .main input[type=text]{
+        font-size: 12px;
+    }
 }
+
+
 .tema-collase .tema-item p{
     line-height: 80px;
     background-color: #06b9f1;
@@ -116,6 +169,7 @@ nav .container-fluid .navbar-collapse{
     color: #fff;
     font-size: 20px;
     padding: 10px;
+    cursor: pointer;
 }
 .tema-desc{
     padding-left: 20px;
@@ -127,6 +181,56 @@ nav .container-fluid .navbar-collapse{
     line-height: 30px;
     font-size: 12px;
 }
+.tema h3.tema-mobile-title{
+    display: none;
+}
+.tema-mobile{
+    display: none;
+}
+/* tema section for mobile */
+@media screen and (max-width:991px) {
+    .tema{
+        width: 100%;
+        text-align: center;
+    }
+    .tema-collase .tema-item p{
+        line-height: 50px;
+        background-color: #06b9f1;
+        padding: 0px;
+        border-radius: 8px;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .tema h3.tema-mobile-title{
+        font-family: GothamBolder;
+        display: inline;
+    }
+    .title-tema-mobile{
+        margin-bottom: 20px;
+    }
+    .tema-desc{
+        display: none;
+    }
+    .tema-pc{
+        display: none;
+    }
+    .tema-mobile{
+        display: inline;
+    }
+}
+
+/* modal */
+.modal-tema .modal-footer, .modal-tema .modal-header{
+    text-align: center;
+}
+.modal-tema .modal-content{
+    text-align: left;
+}
+.modal-tema .modal-header h4{
+    font-family: GothamBolder;
+}
+
+/* usul pembicara section */
 .usulpembicara h3{
     font-family: GothamBolder;
 }
@@ -134,6 +238,12 @@ nav .container-fluid .navbar-collapse{
     line-height: 30px;
     font-size: 12px;
 }
+@media screen and (max-width:991px) {
+    .usulpembicara{
+        text-align: center;
+    }
+}
+
 
 /*footer*/
 .footer{
@@ -153,4 +263,123 @@ nav .container-fluid .navbar-collapse{
 }
 .footer .footer-logo{
     max-width: 120px;
+}
+@media screen and (max-width:991px) {
+    .footer .footer-logo{
+        padding-left: 15px;
+    }
+    .footer .bottom-logo{
+        margin-top: 40px;
+    }
+}
+
+
+
+/* Halaman Hasil Pencarian */
+.main-half{
+    text-align: center;
+    width: 100%;
+    min-height: 250px;
+    background: 
+    linear-gradient(
+      rgba(6, 185, 241, 0.6), 
+      rgba(6, 185, 241, 0.6)
+    ),
+    url('../img/main-image.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+}
+.main-half button{
+    height: 34px;
+    width: 34px;
+    padding :6px;
+}
+.main-half .main-section-container{
+    margin-top: 140px;
+}
+.search-icon{
+    width: 16px;
+}
+.main-half .searchbar .search-input{
+    width: 90%;
+    float: left;
+    padding-right: 5px;
+}
+.main-half .searchbar .search-button{
+    width: 10%;
+    float: left;
+}
+@media screen and (max-width:991px) {
+    .main-half .main-section-container{
+        margin-top: 100px;
+    }
+    .main-half{
+        min-height: 180px;
+    }
+    .main-half input[type=text]{
+        font-size: 12px;
+    }
+}
+.pembicara-foto img{
+    padding: 15px;
+    border-radius: 50%;
+}
+.pembicara-desc h4{
+    font-family: GothamBolder;
+}
+.keterangan-daerah-pelayanan td{
+    padding:5px;
+}
+.pembicara-item{
+    margin-top: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .pembicara-foto img{
+        padding: 5px;
+        border-radius: 50%;
+    }
+}
+
+.pembicara-desc a:visited, 
+.pembicara-desc a:link{
+    color: #222;
+    text-decoration: none;
+}
+.pembicara-desc a:hover{
+    color: #06b9f1;
+    text-decoration: none;
+}
+
+.paging-number nav{
+    text-align: center;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color : #222;
+    border-color: #222;
+}
+.pagination>li>a, .pagination>li>span{
+    color: #222;
+    border : none;
+}
+.pagination li a, .pagination li a:focus, .pagination li a:active{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color : #06b9f1;
+    border : none;
+    color: #fff;
+}
+.pagination li a:hover{
+    color: #fff;
+    background-color: #06b9f1;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span{
+    border-radius: 5px;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover{
+    background-color : #06b9f1;
+    color: #fff;
+    border : none;
 }
