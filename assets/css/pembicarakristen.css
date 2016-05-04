@@ -383,3 +383,133 @@ nav.navbar-default{
     color: #fff;
     border : none;
 }
+
+.modal {
+    padding: 10px;
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+}
+
+
+
+
+/* HALAMAN PEMBICARA */
+.main-half-pembicara{
+    position: relative;
+}
+.main-half-pembicara .pembicara-header{
+    position: absolute;
+    top: 40px;
+}
+.pembicara-header img{
+    border-radius: 50%;
+}
+.pembicara-header .pembicara-foto{
+    max-width: 150px;
+    float: left;
+}
+.pembicara-header .pembicara-name{
+    max-width: 500px;
+    float: left;
+    padding-left: 20px;
+}
+.pembicara-header h3{
+    color: #fff;
+    font-size: 22px;
+    font-family: GothamBold;
+}
+.main-half-pembicara .pembicara-header{
+    text-align: left;
+}
+.main-half-pembicara .pembicara-header a{
+    margin-top: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .pembicara-header{
+        margin-left: -15px;
+    }
+    .pembicara-header-wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pembicara-header .pembicara-foto{
+        max-width: 100px;
+        float: left;
+    }
+    .pembicara-header .pembicara-name h3{
+        margin-top: 0px;
+    }
+    .main-half-pembicara .pembicara-header a{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-half-pembicara .pembicara-header{
+        position: static;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .pembicara-header .pembicara-foto img{
+        position: absolute;
+        margin: auto;
+        max-width: 100px;
+        margin-top: 10px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .pembicara-header .pembicara-name{
+        padding: 0;
+        margin-top: 130px;
+    }
+}
+
+/* data pembicara */
+.pembicara-data table td{
+    padding: 0;
+}
+.pembicara-data{
+    margin-top: 120px;
+}
+.pembicara-data .data-title p{
+    font-family: GothamBold;
+    max-width:200px; 
+    float: right;
+}
+.pembicara-data-row p{
+    line-height: 30px;
+}
+.pembicara-data-row a:visited, .pembicara-data-row a:link{
+    color: #222;
+    text-decoration: none;
+}
+.pembicara-data-row a:hover{
+    color: #06b9f1;
+    text-decoration : none;
+}
+@media screen and (max-width:600px) {
+    .pembicara-data{
+        padding-left: 10px;
+        padding-right: 5px;
+        margin-top: 30px;
+    }
+}

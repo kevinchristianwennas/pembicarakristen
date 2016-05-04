@@ -125,118 +125,126 @@
 
                 <!-- KKR -->
                 <div id="modalkkr" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">KKR</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>KKR (Kebaktian Kebangunan Rohani) merupakan ibadah yang ditujukan untuk membangun kembali kerohanian jemaat. Materi yang dibawakan pada KKR merupakan dasar-dasar kepercayaan dan iman Kristen (penciptaan, kejatuhan, penebusan, penyempurnaan).</p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">KKR</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>KKR (Kebaktian Kebangunan Rohani) merupakan ibadah yang ditujukan untuk membangun kembali kerohanian jemaat. Materi yang dibawakan pada KKR merupakan dasar-dasar kepercayaan dan iman Kristen (penciptaan, kejatuhan, penebusan, penyempurnaan).</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
                 <!-- Topikal -->
                 <div id="modaltopikal" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Topikal</h4>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Topikal</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Tema topikal merupakan tema pemuridan yang membahas hal-hal khusus dan kontekstual dalam iman Kristen. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
-                      <div class="modal-body">
-                        <p>Tema topikal merupakan tema pemuridan yang membahas hal-hal khusus dan kontekstual dalam iman Kristen. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
-                      </div>
-                    </div>
 
+                    </div>
                   </div>
                 </div>
 
                 <!-- Renungan -->
                 <div id="modalrenungan" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Renungan</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Renungan goes here. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Renungan</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Renungan goes here. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
                 <!-- Psikologi -->
                 <div id="modalpsikologi" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Psikologi</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Topik yang membahas isu-isu psikologi dengan cara pandang Kristiani, tema dibahas seperti tempramen, sifat-sifat diri, psikologi remaja, karakater. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Psikologi</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Topik yang membahas isu-isu psikologi dengan cara pandang Kristiani, tema dibahas seperti tempramen, sifat-sifat diri, psikologi remaja, karakater. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
                 <!-- Doa -->
                 <div id="modaldoa" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Doa</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Doa goes here. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Doa</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Doa goes here. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
                 <!-- Training -->
                 <div id="modaltraining" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Training</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Materi-materi pelatihan bagi para pengurus persekutuan, seperti training MC, pemusik, membuat bahan PA, memimpin kelompok kecil. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Training</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Materi-materi pelatihan bagi para pengurus persekutuan, seperti training MC, pemusik, membuat bahan PA, memimpin kelompok kecil. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -244,64 +252,66 @@
 
                 <!-- Doktrinal -->
                 <div id="modaldoktrinal" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Doktrinal</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Membahas pemahaman-pemahaman dasar iman Kristen, tema yang dibahas seperti Kristologi (doktrin Kristus), Bibliologi (doktrin Alkitab), Eskatologi (doktrin akhir zaman), Himnologi (doktrin pujian). </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Doktrinal</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Membahas pemahaman-pemahaman dasar iman Kristen, tema yang dibahas seperti Kristologi (doktrin Kristus), Bibliologi (doktrin Alkitab), Eskatologi (doktrin akhir zaman), Himnologi (doktrin pujian). </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
                 <!-- Eksposisi -->
                 <div id="modaleksposisi" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Eksposisi</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Topik yang membahas suatu bagian dalam Alkitab. Pembahasan secara mendalam dengan membahas konteks budaya dan gaya penulisan untuk kemudian ditarik aplikasinya ke kehidupan saat ini. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Eksposisi</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Topik yang membahas suatu bagian dalam Alkitab. Pembahasan secara mendalam dengan membahas konteks budaya dan gaya penulisan untuk kemudian ditarik aplikasinya ke kehidupan saat ini. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
                 <!-- PA -->
                 <div id="modalpa" class="modal modal-tema fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">PA</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Pendalaman alkitab, merupakan pembahasan alkitab secara berkelompok. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                  <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">PA</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Pendalaman alkitab, merupakan pembahasan alkitab secara berkelompok. </p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="btn btn-default" href="#" role="button" href="#">Cari Pembicara</a>
+                        </div>
                       </div>
                     </div>
-
                   </div>
-                </div>
-                <!-- end of MODAL -->
+                </div><!-- end of MODAL -->
 
             </div>
 
@@ -316,27 +326,7 @@
                 </div>
             </div>
 
-
-            <!-- FOOTER -->
-            <div class="row section footer">
-                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-                    <div class="col-sm-6">
-                        <a href=""><p>Daftar Pembicara</p></a>
-                        <a href=""><p>Usul Pembicara</p></a>
-                        <a href=""><p>Daftar Acara</p></a>
-                        <a href=""><p>Usul Acara</p></a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href=""><p>Tentang</p></a>
-                        <a href=""><p>Kategori Tema</p></a> <!-- Berisi penjelasan kategori tema, maksud dari suatu kategori -->
-                        <a href=""><p>FAQ</p></a>
-                        <a href=""><p>Blog</p></a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 bottom-logo">
-                    <img src="<?=img_url()?>logo-color.png" class="img-responsive footer-logo">
-                </div>
-            </div>
+            <?php include 'footer.php'; ?>
         </div>
 
 
