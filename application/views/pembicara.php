@@ -36,7 +36,8 @@
                             </div>
                             <div class="pembicara-name">
                                 <h3>Alex Nanlohy, S.Sos., M. A.</h3>
-                                <a class="btn btn-default tambah-komentar" href="#" role="button">Tambah Komentar</a>
+                                <a class="btn btn-default tambah-komentar" href="#" role="button" 
+                                    data-toggle="modal" data-target="#modalkomentar">Tambah Komentar</a>
                             </div>
                         </div>
                     </div>
@@ -131,13 +132,14 @@
 
                     <div class="row pembicara-data-row komentar">
                         <div class="col-xs-3 data-title"><p>Komentar</p></div>
-                        <div class="col-xs-9">
+                        <div class="col-sm-9 col-xs-12">
                             <div class="col-xs-12 komentar-item">
                                 <div class="col-xs-2">
                                     <img src="<?=img_url()?>logo-color-color.png" class="img-responsive">
                                 </div>
                                 <div class="col-xs-10">
-                                    <h5>Samuel Arijan - 2 minggu lalu</h5>
+                                    <h5>Samuel Arijan</h5>
+                                    <p class="waktu-komentar">2 minggu lalu</p>
                                     <p>Pembicaranya OK. Najwa? Kick Andy? Kalah!</p>
                                 </div>
                             </div>
@@ -147,7 +149,8 @@
                                     <img src="<?=img_url()?>logo-color-color.png" class="img-responsive">
                                 </div>
                                 <div class="col-xs-10">
-                                    <h5>Samuel Arijan - 2 minggu lalu</h5>
+                                    <h5>Samuel Arijan</h5>
+                                    <p class="waktu-komentar">2 minggu lalu</p>
                                     <p>Pembicaranya OK. Najwa? Kick Andy? Kalah!</p>
                                 </div>
                             </div>
@@ -157,19 +160,79 @@
                                     <img src="<?=img_url()?>logo-color-color.png" class="img-responsive">
                                 </div>
                                 <div class="col-xs-10">
-                                    <h5>Samuel Arijan - 2 minggu lalu</h5>
+                                    <h5>Samuel Arijan</h5>
+                                    <p class="waktu-komentar">2 minggu lalu</p>
                                     <p>Pembicaranya OK. Najwa? Kick Andy? Kalah!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
             <?php include 'footer.php'; ?>
         </div>
+
+        
+
+        <!-- Modal untuk menambahkan komentar -->
+        <div class="modal fade" id="modalkomentar" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Komentar untuk Alex Nanlohy, S.Sos, M. A.</h4>
+              </div>
+              <div class="modal-body">
+                <form action="" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="nama" class="col-sm-2 control-label">Nama</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="nama">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="asal" class="col-sm-2 control-label">Asal</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="asal">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="tempatpelayanan" class="col-sm-2 control-label">Tempat Pelayanan</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="tempatpelayanan">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="waktupelayanan" class="col-sm-2 control-label">Waktu Pelayanan</label>
+                        <div class="col-sm-10">
+                            <input type="time" class="form-control" id="waktupelayanan">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="isikomentar" class="col-sm-2 control-label">Komentar</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="5" id="isikomentar"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group button-komentar">
+                        <button type="submit" class="btn btn-default">Kirim</button>
+                    </div>
+                </form>
+
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
