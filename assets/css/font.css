@@ -1,0 +1,41 @@
+/* Standard */
+@font-face {
+    font-family: GothamReguler;
+    src: url('../font/GothamRoundedBook.ttf');
+}
+@font-face {
+    font-family: GothamReguler;
+    src: url('../font/GothamRounded-BookItalic.otf');
+    font-style: italic;
+}
+/* Bold */
+@font-face {
+    font-family: GothamBold;
+    src: url('../font/GothamRoundedMedium.ttf');
+}
+@font-face {
+    font-family: GothamBold;
+    src: url('../font/GothamRounded-MediumItalic.otf');
+    font-style: italic;
+}
+/* Light */
+@font-face {
+    font-family: GothamLight;
+    src: url('../font/GothamRoundedLight.ttf');
+}
+@font-face {
+    font-family: GothamLight;
+    src: url('../font/GothamRounded-LightItalic.otf');
+    font-style: italic;
+}
+
+/* Bolder */
+@font-face {
+    font-family: GothamBolder;
+    src: url('../font/GothamRoundedBold.ttf');
+}
+@font-face {
+    font-family: GothamBolder;
+    src: url('../font/GothamRounded-BoldItalic.otf');
+    font-style: italic;
+}

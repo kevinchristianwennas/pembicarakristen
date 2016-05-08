@@ -10,52 +10,62 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home');
-	}
+        $data['navigasi']='home';
+        $this->load->view('home', $data);
+    }
 
     public function cari()
     {
-        $this->load->view('cari');
+        $data['navigasi']='cari';
+        $this->load->view('cari', $data);
     }
 
     public function pembicara($name=NULL)
     {
-        $this->load->view('pembicara');
+        $data['navigasi']='pembicara';
+        $this->load->view('pembicara', $data);
     }
 
     public function acara($name=NULL)
     {
-        $this->load->view('home');
+        $data['navigasi']='acara';
+        $this->load->view('acara', $data);
     }
 
     public function usulpembicara()
     {
-        $this->load->view('home');
+        $data['navigasi']='usulpembicara';
+        $this->load->view('usulpembicara', $data);
     }
 
     public function usulacara()
     {
-        $this->load->view('home');
+        $data['navigasi']='usulacara';
+        $this->load->view('usulacara', $data);
     }
 
     public function kontak()
     {
-        $this->load->view('home');
+        $data['navigasi']='kontak';
+        $this->load->view('kontak', $data);
     }
 
     public function faq()
     {
-        $this->load->view('home');
+        $data['navigasi']='faq';
+        $this->load->view('faq', $data);
     }
 
     public function blog()
     {
-        $this->load->view('home');
+        $data['navigasi']='blog';
+        $this->load->view('blog', $data);
     }
 
     public function tentang()
     {
-        $this->load->view('home');
+        $data['navigasi']='tentang';
+        $this->load->view('tentang', $data);
     }
 }
 

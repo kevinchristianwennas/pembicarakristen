@@ -1,0 +1,14 @@
+.form-control{
+    border: none;
+    border-radius: 8px;
+}
+.btn-default{
+    color: #fff;
+    background-color: #06b9f1;
+    border : none;
+    border-radius: 8px;
+}
+.btn-default:hover, .btn-default:active, .btn-default:focus{
+    background-color: #222;
+    color: #fff;
+}

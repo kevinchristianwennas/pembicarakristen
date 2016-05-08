@@ -67,17 +67,22 @@ nav.navbar-default{
     }
     nav{
         height: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 
     .navbar-default .navbar-nav>li>a{
         color: #fff;
+        margin-left: 5px;
     }
     .navbar-default .navbar-nav>li>a:hover{
-        color: #fff;
-        background-color: #222;
-        opacity: 0.4;
+        color: #06b9f1;
+        background-color: #fff;
+        border-radius:8px;
+    }
+    .navbar-default .navbar-nav>li>a.active-navigation-navbar{
+        color: #06b9f1;
+        background-color: #fff;
         border-radius:8px;
     }
     nav .container-fluid{
@@ -155,7 +160,7 @@ nav.navbar-default{
 
 
 .tema-collase .tema-item p{
-    line-height: 80px;
+    line-height: 100px;
     background-color: #06b9f1;
     padding: 0px;
     border-radius: 8px;
@@ -167,7 +172,7 @@ nav.navbar-default{
 .tema-collase .tema-item{
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     cursor: pointer;
 }
@@ -180,6 +185,9 @@ nav.navbar-default{
 .tema-desc p{
     line-height: 30px;
     font-size: 12px;
+}
+.tema-desc .btn{
+    margin-top: 20px;
 }
 .tema h3.tema-mobile-title{
     display: none;
@@ -238,6 +246,9 @@ nav.navbar-default{
     line-height: 30px;
     font-size: 12px;
 }
+.usulpembicara .btn{
+    margin-top: 20px;
+}
 @media screen and (max-width:991px) {
     .usulpembicara{
         text-align: center;
@@ -271,6 +282,9 @@ nav.navbar-default{
     .footer .bottom-logo{
         margin-top: 40px;
     }
+}
+.footer a.active-navigation-footer{
+    color: #06b9f1;
 }
 
 
@@ -439,6 +453,17 @@ nav.navbar-default{
 .main-half-pembicara .pembicara-header a{
     margin-top: 40px;
 }
+.pembicara-data .komentar{
+    margin-top: 50px;
+}
+.pembicara-data .komentar h5{
+    font-family: GothamBold;
+    font-size: 18px;
+}
+.komentar .komentar-item{
+    margin-bottom: 20px;
+}
+
 
 @media screen and (max-width:768px) {
     .pembicara-header{
@@ -483,6 +508,8 @@ nav.navbar-default{
     }
 }
 
+
+
 /* data pembicara */
 .pembicara-data table td{
     padding: 0;
@@ -511,5 +538,81 @@ nav.navbar-default{
         padding-left: 10px;
         padding-right: 5px;
         margin-top: 30px;
+    }
+}
+
+/* FAQ */
+.faq-section{
+    margin-top: 60px;
+}
+@media screen and (max-width:768px) {
+    .faq-section{
+        margin-top: 20px;
+    }
+}
+.main-half h1{
+    color: #fff;
+    font-family: GothamBold;
+}
+.faq-section ol li{
+    font-family: GothamBold;
+    font-size: 20px;
+}
+.faq-section .panel-title a:hover , .faq-section .panel-title a:focus{
+    text-decoration: none;
+}
+
+
+/* Tentang */
+.tentang-section{
+    margin-top: 60px;
+}
+@media screen and (max-width:768px) {
+    .tentang-section{
+        margin-top: 20px;
+    }
+}
+.tentang-section p span{
+    font-family: GothamBold;
+    font-size: 20px;
+}
+.tentang-section p{
+    line-height: 35px;
+}
+.tentang-section .signature{
+    margin-top: 80px;
+}
+.tentang-section .text-tentang{
+    margin-top: 20px;
+}
+.tentang-section p{
+    margin-bottom: 20px;
+}
+
+/* Kontak */
+.kontak-section{
+    margin-top: 60px;
+    text-align: center;
+}
+.kontak-section h4{
+    font-family: GothamBold;
+}
+.kontak-section .intro-kontak{
+    width: 60%;
+    margin : 0 auto;
+}
+.kontak-section .kontak-details{
+    margin-top: 60px;
+}
+@media screen and (max-width:768px) {
+    .kontak-section{
+        margin-top: 20px;
+    }
+    .kontak-section .intro-kontak{
+        width: 90%;
+        margin : 0 auto;
+    }
+    .kontak-section .kontak-details{
+        margin-top: 40px;
     }
 }
