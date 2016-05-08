@@ -54,7 +54,7 @@ $('.lds').click(function(){
 
 $('.training').click(function(){
   $('.topik-title').html('Training');
-  $('.topik-desc').html('Materi-materi pelatihan bagi para pelayan di persekutuan, seperti training pemimpib pujian, pemusik, membuat bahan PA, memimpin kelompok kecil.');
+  $('.topik-desc').html('Materi-materi pelatihan bagi para pelayan di persekutuan, seperti training pemimpin pujian, pemusik, membuat bahan PA, memimpin kelompok kecil.');
 });
 
 $('.pa').click(function(){

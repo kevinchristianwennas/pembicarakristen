@@ -72,7 +72,7 @@
 
                 <div class="penjelasankategori-item">
                     <h4>Doktrinal</h4>
-                    <p>Tema ini membahas pemahaman-pemahaman iman Kristen secara mendalam seperti Kristologi (doktrin Kristus), Soteriologi (doktrin Keselamatan), Bibliologi (doktrin Alkitab), doktrin Roh Kudus, Eskatologi (doktrin akhir zaman), Himnologi (doktrin pujian).</p>
+                    <p>Tema ini membahas pemahaman-pemahaman iman Kristen secara mendalam.</p>
 
                     <p>Beberapa contoh tema doktrinal yang dapat dibukakan di persekutuan :</p>
                     <ul>
