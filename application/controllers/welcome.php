@@ -26,6 +26,7 @@ class Welcome extends CI_Controller {
         $this->load->view('pembicara', $data);
     }
 
+    // NEXT FEATURE
     public function acara($name=NULL)
     {
         $data['navigasi']='acara';
@@ -38,6 +39,7 @@ class Welcome extends CI_Controller {
         $this->load->view('usulpembicara', $data);
     }
 
+    // NEXT FEATURE
     public function usulacara()
     {
         $data['navigasi']='usulacara';
@@ -66,6 +68,12 @@ class Welcome extends CI_Controller {
     {
         $data['navigasi']='tentang';
         $this->load->view('tentang', $data);
+    }
+
+    public function penjelasankategori()
+    {
+        $data['navigasi']='penjelasankategori';
+        $this->load->view('penjelasankategori', $data);
     }
 }
 

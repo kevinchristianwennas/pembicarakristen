@@ -616,3 +616,22 @@ nav.navbar-default{
         margin-top: 40px;
     }
 }
+
+/* Penjelasan Kategori */
+.penjelasankategori-section{
+    margin-top: 60px;
+}
+@media screen and (max-width:768px) {
+    .penjelasankategori-section{
+        margin-top: 20px;
+    }
+}
+.penjelasankategori-item{
+    margin-bottom: 50px;
+}
+.penjelasankategori-item h4{
+    font-family: GothamBold;
+}
+.penjelasankategori-section p{
+    line-height: 30px;
+}

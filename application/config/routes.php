@@ -12,6 +12,7 @@ $route['kontak'] = "welcome/kontak";
 $route['faq'] = "welcome/faq";
 $route['blog'] = "welcome/blog";
 $route['tentang'] = "welcome/tentang";
+$route['penjelasankategori'] = "welcome/penjelasankategori";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
