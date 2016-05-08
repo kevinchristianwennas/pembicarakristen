@@ -97,24 +97,24 @@
                         <p data-toggle="modal" data-target="#modaltopikal">Topikal</p>
                     </div>
                     <div class="col-sm-4 col-xs-6 tema-item">
-                        <p data-toggle="modal" data-target="#modalrenungan">Psikologi</p>
+                        <p data-toggle="modal" data-target="#modalpsikologi">Psikologi</p>
                     </div>
 
                     <div class="col-sm-4 col-xs-6 tema-item">
-                        <p data-toggle="modal" data-target="#modalpsikologi">Doktrinal</p>
+                        <p data-toggle="modal" data-target="#modaldoktrinal">Doktrinal</p>
                     </div>
                     <div class="col-sm-4 col-xs-6 tema-item">
-                        <p data-toggle="modal" data-target="#modaldoa">Eksposisi</p>
+                        <p data-toggle="modal" data-target="#modaleksposisi">Eksposisi</p>
                     </div>
                     <div class="col-sm-4 col-xs-6 tema-item">
-                        <p data-toggle="modal" data-target="#modaltraining">Mahasiswa/Siswa</p>
+                        <p data-toggle="modal" data-target="#modalmahasiswasiswa">Mahasiswa/Siswa</p>
                     </div>
 
                     <div class="col-sm-4 col-xs-6 tema-item">
-                        <p data-toggle="modal" data-target="#modaldoktrinal">LDS</p>
+                        <p data-toggle="modal" data-target="#modallds">LDS</p>
                     </div>
                     <div class="col-sm-4 col-xs-6 tema-item">
-                        <p data-toggle="modal" data-target="#modaleksposisi">Training</p>
+                        <p data-toggle="modal" data-target="#modaltraining">Training</p>
                     </div>
                     <div class="col-sm-4 col-xs-12 tema-item">
                         <p data-toggle="modal" data-target="#modalpa">PA</p>
