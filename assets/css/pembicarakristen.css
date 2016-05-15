@@ -662,3 +662,12 @@ nav.navbar-default{
 .penjelasankategori-section p{
     line-height: 30px;
 }
+
+/* Usul Pembicara */
+.usulpembicara-section{
+    margin-top: 40px;
+}
+.form-usulpembicara button{
+    width: 100%;
+    line-height: 30px;
+}

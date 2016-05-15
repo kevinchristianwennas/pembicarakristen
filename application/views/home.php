@@ -34,7 +34,7 @@
                     <div class="col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1 searchbar">
                         <form class="" action="" method="post">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="nama pembicara, tema, atau kategori">
+                                <input type="text" class="form-control search-pembicarakristen" id="exampleInputEmail1" placeholder="nama pembicara, tema, atau kategori">
                             </div>
                             <a type="submit" class="btn btn-default" role="button" href="/pembicarakristen/cari">Cari</a>
                         </form>
@@ -322,7 +322,7 @@
                     <h3>Punya Rekomendasi Pembicara?</h3>
                     <p>Setiap pembicara yang direkomendasikan akan diverifikasi terlebih dahulu oleh admin sebelum ditampilkan
                     pada website pembicarakristen.</p>
-                    <button class="btn btn-default" type="submit">Rekomendasikan</button>
+                    <a class="btn btn-default" role="button" href="/pembicarakristen/usulpembicara">Rekomendasikan</a>
                 </div>
             </div>
 
