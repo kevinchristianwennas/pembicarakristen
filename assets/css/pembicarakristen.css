@@ -58,7 +58,7 @@ nav.navbar-default{
 }
 
 /* desktop size */
-@media screen and (min-width:768px) {
+@media screen and (min-width:767px) {
     nav.navbar-default{
         background: transparent;
     }
@@ -104,9 +104,12 @@ nav.navbar-default{
         margin-top: -25px;
         right: -5px;
     }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 }
-
 /* ALL */
 .section{
     margin-bottom: 60px;
@@ -124,11 +127,11 @@ nav.navbar-default{
     width: 100%;
     min-height: 600px;
     background: 
-    linear-gradient(
-      rgba(6, 185, 241, 0.6), 
-      rgba(6, 185, 241, 0.6)
-    ),
-    url('../img/main-image.jpg');
+        linear-gradient(
+          rgba(6, 185, 241, 0.6), 
+          rgba(6, 185, 241, 0.6)
+        ),
+        url('../img/main-image.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -247,6 +250,10 @@ nav.navbar-default{
     font-size: 12px;
 }
 .usulpembicara .btn{
+    margin-top: 20px;
+}
+.usulpembicara-icon img{
+    max-width: 150px;
     margin-top: 20px;
 }
 @media screen and (max-width:991px) {
@@ -559,10 +566,10 @@ nav.navbar-default{
 #modalkomentar .modal-content{
     background-color: #f1f1f1;
 }
-#modalkomentar .button-komentar{
+#modalkomentar .button-komentar, #modalpengunjung .button-pengunjung{
     text-align: center;
 }
-#modalkomentar .button-komentar button{
+#modalkomentar .button-komentar button , #modalpengunjung .button-pengunjung button{
     padding-left: 20px;
     padding-right: 20px;
     line-height: 25px;

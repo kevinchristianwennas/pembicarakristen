@@ -99,7 +99,7 @@
                     <div class="row pembicara-data-row">
                         <div class="col-xs-3 data-title"><p>Handphone</p></div>
                         <div class="col-xs-9">
-                            <p>083873099622</p>
+                            <a href="#" role="button" data-toggle="modal" data-target="#modalpengunjung" ><p>08xxxxxxxxxx</p></a>
                         </div>
                     </div>
 
@@ -232,6 +232,40 @@
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
 
+
+        <!-- Modal untuk mengisi absen dan membuka kontak -->
+        <div class="modal fade" id="modalpengunjung" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Hi! Perkenalkan diri Anda</h4>
+              </div>
+              <div class="modal-body">
+                <p>Kontak pembicara akan terbuka setelah Anda mengisi daftar pengunjung ini.</p>
+                <form action="" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="nama" class="col-sm-2 control-label">Nama</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="nama">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="asal" class="col-sm-2 control-label">Asal</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="asal">
+                            <p class="help-block">(Contoh : SMA 1 Jakarta, Fakultas Kedokteran UI, Gereja HKBP Depok)</p>
+                        </div>
+                    </div>
+                    <div class="form-group button-pengunjung">
+                        <button type="submit" class="btn btn-default button-kirim-pengunjung">Kirim</button>
+                    </div>
+                </form>
+
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
 
 

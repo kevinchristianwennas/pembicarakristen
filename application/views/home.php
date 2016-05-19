@@ -318,11 +318,17 @@
 
             <!-- USUL PEMBICARA SECTION -->
             <div class="row section usulpembicara">
-                <div class="col-md-offset-2 col-md-3 ">
+                <div class="col-md-2 col-md-offset-1 usulpembicara-icon">
+                    <img src="<?=img_url();?>rekomendasi.png" class="img-responsive">
+                </div>d
+                <div class="col-md-offset-2 col-md-4">
                     <h3>Punya Rekomendasi Pembicara?</h3>
                     <p>Setiap pembicara yang direkomendasikan akan diverifikasi terlebih dahulu oleh admin sebelum ditampilkan
                     pada website pembicarakristen.</p>
                     <a class="btn btn-default" role="button" href="/pembicarakristen/usulpembicara">Rekomendasikan</a>
+                </div>
+                <div class="col-md-2 col-md-offset-1 usulpembicara-icon">
+                  <img src="<?=img_url();?>rekomendasi.png" class="img-responsive">
                 </div>
             </div>
 
